@@ -1,0 +1,6 @@
+body { background: #f5f6f8; color: #242c39; }
+.container { max-width: 1120px; }
+.login { max-width: 420px; margin: 12vh auto 0; padding: 28px; }
+.ventana { width: min(720px, calc(100% - 24px)); max-height: 90vh; overflow: auto; border: 1px solid #d5dae0; border-radius: 8px; padding: 24px; }
+.ventana::backdrop { background: rgba(0,0,0,.45); }
+th { white-space: nowrap; }
